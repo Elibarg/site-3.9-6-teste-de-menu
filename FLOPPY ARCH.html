@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOPPY ARCH</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" href="img/disquete gif.gif"gif/gif">
+    
+
+</head>
+<body style="background-image: url(img/Fundo.png);">
+
+    <img src="img/planeta gif.gif" class="planeta">
+    <img src="img/planeta gif.gif" class="planeta2">
+    <img src="img/disquete gif.gif" class="disquete">
+    <img src="img/disquete gif.gif" class="disquete2">
+
+    
+
+        <div  class="texto1" > 
+            <h3>
+                 Um produto que visa a nostalgia juntamente a
+            </h3>
+                <h3> 
+                    viabilidade de armazenamento em seu sistema, com isso em mente
+                </h3>
+                    <h3> 
+                         apresentamos uma nova geração de disquetes.
+                    </h3>
+        </div>
+
+        <div class="titulo">
+            <img src="img/titulo.png" alt="150px">
+        </div>
+
+        <div class="discneymar">
+            <img src="img/Neymar disc.png" alt="150px">
+        </div>
+
+        <div class="titulo2">
+            <img src="img/titulo 2.png" alt="150px">
+        </div>
+
+        <div id class="titulo2">
+            <img src="img/titulo 2.png" alt="150px">
+        </div>
+        <div class="navegation"> 
+            <ul>
+                <li class="list active">
+                    <a href="FLOPPY ARCH.html"> 
+                        <span class="icon"> <ion-icon name="home"></ion-icon></span>
+                        <span class="title">  Home</span>
+                    </a> 
+                </li>
+                <li class="list">
+                    <a href="FLOPPY ARCH comprar.html">
+                            <span class="icon"><ion-icon name="card-outline"></ion-icon></span>
+                            <span class="title"> Comprar </span>
+                         </a>
+                </li>
+    
+            
+                <li class="list">
+                    <a href="FLOPPY ARCH carrinho.html">
+                                <span class="icon"> <ion-icon name="cart-outline"></ion-icon></span>
+                                <span class="title"> carrinho </span>
+                             </a>
+                </li>
+    
+            
+                <li class="list">
+                    <a href="FLOPPY ARCH entrar.html">
+                            <span class="icon"> <ion-icon name="walk-outline"></ion-icon></span>
+                            <span class="title"> entrar </span>
+                        </a>
+                </li>
+    
+            
+                <li class="list">
+                    <a href="FLOPPY ARCH contato.html">
+                            <span class="icon"><ion-icon name="chatbubble-ellipses-outline"></ion-icon> </span>
+                             <span class="title"> contato </span>
+                        </a>
+                </li>
+            </ul>
+            </div>
+            
+                    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+                    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>                   
+                  <script>
+                    const list = document.querySelectorAll('.list');
+                    function activeLink(){ 
+                        list.forEach((item) =>
+                        item.classList.remove('active'));
+                        this.classList.add('active')
+                    }
+                    list.forEach((item)=>
+                    item.addEventListener('click', activeLink));
+                  </script>
+</body>
+</html>

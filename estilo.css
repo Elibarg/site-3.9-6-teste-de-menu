@@ -1,0 +1,193 @@
+body
+{
+  overflow: hidden;
+}
+.texto1
+    {
+    position: absolute;
+    color: white;
+    top: 45%;
+    left: 45%;
+    width: 20%;
+    animation: bounceInUp 4s;
+
+
+    }
+    .titulo
+    {
+        position: absolute;
+        top: 1%;
+        left: 35%;
+        animation: rubberBand 4s;
+        animation: bounceInDown 4s;
+       
+}
+   
+        .titulo2
+        {
+        position: absolute;
+        top: 17%;
+        left: 39%;
+        animation: rubberBand 4s;
+        animation: bounceInUp 4s;
+
+
+        }
+   
+    .discneymar
+    {
+        position: absolute;
+        top: 45%;
+        left: 30%;  
+        animation: bounceInUp 4s;
+    }
+   
+    .planeta
+    {
+        position: absolute;
+        height: 8%;
+        left: 62%;
+        top: 15%;
+        animation: fadeInRightBig 4s;
+    }
+   
+    .planeta2
+    {
+        position: absolute;
+        height: 8%;
+        left: 33%;
+        top: 15%;  
+        animation: fadeInLeftBig 4s;
+    }
+   .disquete
+   {
+       position: absolute;
+       height: 15%;
+       left: 20%;
+       top: 50%;
+       animation: fadeInLeftBig 4s;
+       
+   }
+
+
+   .disquete2
+   {
+       position: absolute;
+       height: 15%;
+       left: 69%;
+       top: 50%;
+       animation: fadeInRightBig 4s;
+     
+   }
+   
+   
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap');
+*{margin:0 ;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+
+body
+{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+.navegation
+{
+    position: relative;
+    height: 500px;
+    background: #2b2828;
+    width: 70px;
+    box-shadow: 10px 0 0 #000080;
+    border-left: 10px solid #2b2828;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+.navegation:hover
+{
+    width: 300px;
+}
+.navegation ul
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.navegation ul li 
+{
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.navegation ul li a
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #ffff;
+}
+.navegation ul li a .icon
+{
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.navegation ul li a .icon ion-icon
+{
+    position: relative;
+    font-size: 1.5rem;
+    z-index: 1;
+}
+.navegation ul li a .title
+{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    white-space: nowrap;
+}
+.navegation ul li.active
+{
+background: #000080;
+
+}
+.navegation ul li.active a::before
+{
+    content: '';
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #2b2828;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 #000080;
+}
+.navegation ul li.active a::after
+{
+    content: '';
+    position: absolute;
+    bottom:-30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #2b2828;
+    border-radius: 50%;
+    box-shadow: 15px -15px 0 #000080;
+}
